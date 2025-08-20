@@ -1,0 +1,22 @@
+
+
+
+
+
+Basic Flow : Github Repo : - > Clone : - > Changes : - > Add : - > commit : - > Push
+
+Git Branches Workflow : 
+    Main Branch :
+    Feature Branch : 
+
+
+Branch Commads :
+To Check Branch : git branch 
+To rename branch : git branch -M main 
+To Navigate : git checkout <- branch name -> 
+    Ex: git checkout LocalRepo
+        here LocalRepo is branch name
+To Create new Branch : git checkout -b <- new branch name ->
+To Delete Branch : git branch -d <- branch name ->
+
+
