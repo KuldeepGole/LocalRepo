@@ -1,9 +1,73 @@
 
+# Configuring Git : 
+
+git config --global user.name ""
+
+git config --global user.emial ""
+
+git config --list
 
 
+# Clone & Status :
 
+ Clone :: Cloing the repository in local machine
+     : git clone <- some link ->
+
+ Status :: Display the Status of the code        
+     : git status 
+
+ Other Usefull commands :
+
+ To Get List : ls -a
+
+ ls - List files
+
+ "-a" use for hidden files.
+
+ To make a direcotry : mkdir <- dir name ->
+
+ cd ./
+ cd ..
+ clear 
+
+ Status : untracked, modified, staged, unmodified.
+
+
+# Add and Commit : 
+
+    Add : 
+        To Add one more few files : git add <- file names ->
+            or 
+        To add all : git add . 
+
+    Commit : 
+
+        git commit -m "some message"
+
+
+# Push Command :
+
+    git push origin main 
+    or 
+    git push -u origin main 
+
+    -u
+
+    Init Commands :
+
+        git init
+        git remote add origin <- Link ->
+        To Verify Remote : git remove -v
+        To Check Branch : git branch 
+        To Rename Branch : git branch -M main 
+        git push origin main
+
+
+# WorkFlow 
 
 Basic Flow : Github Repo : - > Clone : - > Changes : - > Add : - > commit : - > Push
+
+Note : Multiple users/features are going on
 
 Git Branches Workflow : 
     Main Branch :
@@ -19,4 +83,23 @@ To Navigate : git checkout <- branch name ->
 To Create new Branch : git checkout -b <- new branch name ->
 To Delete Branch : git branch -d <- branch name ->
 
+# Merging Code :
+
+Way 1 :
+    To compare commits, branches, files, & more : git diff <- branch name ->
+
+    To Merge 2 Branches : git merge <- branch name ->
+
+Way 2 : Create a PR (Github Pull Request using UI)
+
+
+# Pull Request : 
+    git pull origin main
+
+# Resolving Merge conflict : 
+
+
+
+
+# Undoing Changes : 
 
